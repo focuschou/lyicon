@@ -6,7 +6,8 @@ view_class: v-get-started
 relative_path: ../
 ---
 {% capture jumbotron_h1 %}<i class="fa fa-cogs" aria-hidden="true"></i>&nbsp; 开始入门{% endcapture %}
-简单几步轻松搞定lyicon
+
+{% capture jumbotron_p %}简单几步轻松搞定lyicon{% endcapture %}
 
 {% include jumbotron.html %}
 
@@ -26,17 +27,17 @@ relative_path: ../
 
 
     <div class="download-css margin-bottom-xl" id="download-css">
-      <h3>Using CSS</h3>
+      <h3>CSS使用</h3>
 
       <ol>
-        <li>Copy the entire <code>font-awesome</code> directory into your project.</li>
+        <li>下载lyicon并放到你的项目里</li>
         <li>
-          In the <code>&lt;head&gt;</code> of your html, reference the location to your font-awesome.min.css.
+          在你的html里<code>&lt;head&gt;</code> 标记中加入以下一行：
 {% highlight html %}
 <link rel="stylesheet" href="path/to/lyicon/css/lyicon.css">
 {% endhighlight %}
         </li>
-        <li>Check out the <a href="{{ page.relative_path }}examples/">examples</a> to start using Font Awesome!</li>
+        <li>查找<a href="{{ page.relative_path }}examples/">实例</a> 来使用lyicon!</li>
       </ol>
     </div>
 

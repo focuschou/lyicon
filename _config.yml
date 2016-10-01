@@ -28,7 +28,7 @@ fontawesome:
   major_version:  4
   doc_blob:       v4.6.3
   url:            http://lyicon.lyunweb.com
-  legacy_url:     http://github.com/ijry/lyicon
+  legacy_url:     http://git.lingyun.net/admin/lyicon.git
   twitter:        lyicon
   tagline:        移动互联网时代专用图标库
   css_prefix:     fa
